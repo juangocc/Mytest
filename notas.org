@@ -1,0 +1,25 @@
+- Interesting programming concepts
+  - https://www.youtube.com/user/livibetter/videos
+- Vimperator
+  - from javascript shell to file
+   - https://superuser.com/questions/539660/running-a-script-on-a-webpage-from-vimperator
+     - :js var f = new io.File('~/extracted.txt'); f.write('extracted text');
+  - http://blog.yjl.im/2010/11/writing-data-to-disk-from-vimperator.html
+- Tutorial git github 
+  - https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/
+  - Configuración
+    - $ sudo su
+    - # apt-get install git-all
+    - # exit
+    - $ git config --global user.name "user_name"
+    - $ git config --global user.email "email_id"
+    - $ git init MyTest
+    - $ cd MyTest
+    - $ vim.tiny README
+    - $ vim.tiny sample.c
+    - $ git add README
+    - $ git add sample.c
+    - $ git commit -m "first commit"
+  - Repository on Github (Web Server)
+    - License : https://choosealicense.com/no-permission/
+
