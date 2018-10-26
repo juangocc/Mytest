@@ -22,4 +22,6 @@
     - $ git commit -m "first commit"
   - Repository on Github (Web Server)
     - License : https://choosealicense.com/no-permission/
-
+    - https://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists
+      - $ git remote add origin https://github.com/user_name/Mytest.git
+      - $ git remote set-url origin https://github.com/user_name/Mytest.git
