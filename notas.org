@@ -1,3 +1,5 @@
+- Programming ethics
+  - https://www.businessinsider.com/programmers-confess-unethical-illegal-tasks-asked-of-them-2016-11
 - Interesting programming concepts
   - https://www.youtube.com/user/livibetter/videos
 - Vimperator
@@ -25,3 +27,12 @@
     - https://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists
       - $ git remote add origin https://github.com/user_name/Mytest.git
       - $ git remote set-url origin https://github.com/user_name/Mytest.git
+    - git push origin master
+    - git pull origin master
+  - Git Commands
+    - https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
+    - $ git log
+    - $ git status
+    - $ git checkout master
+    - $ git log --pretty=format:"%h - %an, %ar : %s"
+    - $ git log --pretty=format:"%h - %an, %ad : %s" --graph --since="Fri Oct 26 16:13:30 2018" --before="Fri Oct 26 17:26:30 2018" --author='Juan_Gabriel_OC'
