@@ -3,12 +3,16 @@
 - Interesting programming concepts
   - https://www.youtube.com/user/livibetter/videos
 - Vimperator
+  - http://vimperator.org/vimperator.html
   - from javascript shell to file
    - https://superuser.com/questions/539660/running-a-script-on-a-webpage-from-vimperator
      - :js var f = new io.File('~/extracted.txt'); f.write('extracted text');
   - http://blog.yjl.im/2010/11/writing-data-to-disk-from-vimperator.html
+  - Configuration file
+    - https://gist.github.com/igal/329662
 - Tutorial git github 
   - https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/
+  - https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
   - Configuración
     - $ sudo su
     - # apt-get install git-all
@@ -36,3 +40,5 @@
     - $ git checkout master
     - $ git log --pretty=format:"%h - %an, %ar : %s"
     - $ git log --pretty=format:"%h - %an, %ad : %s" --graph --since="Fri Oct 26 16:13:30 2018" --before="Fri Oct 26 17:26:30 2018" --author='Juan_Gabriel_OC'
+  - Javascripts
+    - https://coderwall.com/p/_ppzrw/be-careful-with-settimeout-in-loops
